@@ -1,0 +1,11 @@
+{
+  "org": "django",
+  "repo": "daphne",
+  "versions": [
+    {
+      "commit": "d7a005258cce3ad7893a759274647f46331d782e",
+      "tag": "",
+      "parsed_at": "2026-10-19T11:46:23.614768+00:00"
+    }
+  ]
+}
