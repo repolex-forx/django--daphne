@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/django/daphne/commit/d7a005258cce3ad7893a759274647f46331d782e",
       "git:hexsha": "d7a005258cce3ad7893a759274647f46331d782e",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/django/daphne/commit/a5946922f5295094d8315569414cffab6b0d2488",
