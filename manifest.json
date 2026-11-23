@@ -103,6 +103,444 @@
       ],
       "ast": [
         "aggregate/ast/8a60e56ef8c9b5a4cc4979a3ece6970c73bbd025/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8a60e56ef8c9b5a4cc4979a3ece6970c73bbd025.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "asgiref",
+          "ecosystem": "PYPI",
+          "version": "3.5.2",
+          "githubOrg": "django",
+          "githubRepo": "asgiref",
+          "githubCommit": "67b2e812632e7771d560c59e48e6c6fc68ff402d",
+          "githubTag": "3.5.2",
+          "githubUrl": "https://github.com/django/asgiref",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "autobahn",
+          "ecosystem": "PYPI",
+          "version": "22.4.2",
+          "githubOrg": "crossbario",
+          "githubRepo": "autobahn-python",
+          "githubCommit": "299a6560cc8bd8e3ad7c02acf6cf15cf15cee87b",
+          "githubTag": "v22.4.2",
+          "githubUrl": "https://github.com/crossbario/autobahn-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "twisted",
+          "ecosystem": "PYPI",
+          "version": "22.4",
+          "githubOrg": "twisted",
+          "githubRepo": "twisted",
+          "githubUrl": "https://github.com/twisted/twisted",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "django",
+          "ecosystem": "PYPI",
+          "version": "6.1.3",
+          "githubOrg": "django",
+          "githubRepo": "django",
+          "githubCommit": "f16e25dcb9fe55734ba4ea2b00ac34405b7df74a",
+          "githubTag": "6.1.3",
+          "githubUrl": "https://github.com/django/django",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "hypothesis",
+          "ecosystem": "PYPI",
+          "version": "6.170.17",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis",
+          "githubCommit": "9a15ddde58248954d62f97e6265c8bf99c25bd54",
+          "githubTag": "v6.170.17",
+          "githubUrl": "https://github.com/HypothesisWorks/hypothesis",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "1.5.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubCommit": "0c7805eb7576eccfa7776a22a23e2d71201f172e",
+          "githubTag": "v1.5.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+          "githubTag": "v7.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "black",
+          "ecosystem": "PYPI",
+          "version": "26.10.1",
+          "githubOrg": "psf",
+          "githubRepo": "black",
+          "githubCommit": "258e7dbf348bc23cb70b8cdf693481c04634ebcc",
+          "githubTag": "26.10.1",
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tox",
+          "ecosystem": "PYPI",
+          "version": "4.67.15",
+          "githubOrg": "tox-dev",
+          "githubRepo": "tox",
+          "githubCommit": "4cffc505320787670883d96613c69a9c2eea2acf",
+          "githubTag": "4.67.15",
+          "githubUrl": "https://github.com/tox-dev/tox",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "flake8",
+          "ecosystem": "PYPI",
+          "version": "7.5.0",
+          "githubOrg": "pycqa",
+          "githubRepo": "flake8",
+          "githubCommit": "1c7fec1973ed3a7c192dbe1e96906fbbd1dbe49e",
+          "githubTag": "7.5.0",
+          "githubUrl": "https://github.com/pycqa/flake8",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "flake8-bugbear",
+          "ecosystem": "PYPI",
+          "version": "26.11.22",
+          "githubOrg": "PyCQA",
+          "githubRepo": "flake8-bugbear",
+          "githubCommit": "12fba6833eaf4168ff53fe1af9f2007a2e829f64",
+          "githubTag": "26.11.22",
+          "githubUrl": "https://github.com/PyCQA/flake8-bugbear",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "2.4.1",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "ad02a35e623d105ab7340f75558716bc09f8242e",
+          "githubTag": "v2.4.1",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "logging",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "time",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "traceback",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "urllib.parse",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "argparse",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing.process",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing.queues",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.events",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pickle",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing.synchronize",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "posixpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "ntpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "unittest.case",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "collections",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.exceptions",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.windows_events",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "importlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "re",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sys",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "_warnings",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "concurrent.futures.thread",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "functools",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.queues",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio.tasks",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "http.client",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "socket",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pathlib._local",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "urllib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "unittest",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "struct",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "concurrent",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "warnings",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "asyncio",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "datetime",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "string",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pathlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],
