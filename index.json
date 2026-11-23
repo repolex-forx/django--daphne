@@ -3,6 +3,11 @@
   "repo": "daphne",
   "versions": [
     {
+      "commit": "8a60e56ef8c9b5a4cc4979a3ece6970c73bbd025",
+      "tag": "4.2.3",
+      "parsed_at": "2026-11-23T05:39:22.180574+00:00"
+    },
+    {
       "commit": "d7a005258cce3ad7893a759274647f46331d782e",
       "tag": "",
       "parsed_at": "2026-10-19T11:46:23.614768+00:00"
